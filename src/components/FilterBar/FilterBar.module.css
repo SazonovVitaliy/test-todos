@@ -1,0 +1,22 @@
+.filterbar {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  color: gray;
+}
+.filterbar__btn {
+  border: none;
+  background-color: white;
+  margin-right: 10px;
+  color: gray;
+}
+.filterbar__btn:focus {
+  border: 1px solid lightcoral;
+  border-radius: 3px;
+}
+
+.filterbar__btn_clear {
+  color: gray;
+  border: none;
+  background-color: white;
+}

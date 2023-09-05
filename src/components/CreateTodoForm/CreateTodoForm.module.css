@@ -1,0 +1,21 @@
+.form {
+  border-bottom: 2px solid lightgray;
+  padding-bottom: 15px;
+}
+.form__input {
+  width: calc(100% - 72px);
+  border: none;
+}
+.form__input:not(:last-child) {
+  margin-right: 15px;
+}
+.form__btn {
+  border: none;
+  background-color: white;
+  color: gray;
+}
+
+.form__btn:active {
+  border: 1px solid lightcoral;
+  border-radius: 3px;
+}

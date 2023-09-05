@@ -1,0 +1,25 @@
+.todoitem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid lightgray;
+  padding: 15px 0;
+}
+
+.checkbox {
+  display: flex;
+}
+.title {
+  padding-left: 15px;
+}
+.title_checked {
+  text-decoration: line-through;
+  color: gray;
+  padding-left: 15px;
+}
+
+.btn {
+  border: none;
+  background-color: white;
+  color: lightcoral;
+}
